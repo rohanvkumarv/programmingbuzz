@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(234, 204, 204);
+    align-items: center;
+    display: flex;
+    
+    justify-content: center;
+    min-height: 100vh;
+}
+.hac{
+    height: auto;
+    font-size: 40px;
+    width: 300pxpx;
+    background-color: rgb(180, 172, 171);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    
+    font-family: monospace;
+    
+}
+.kingo{
+    font-size: 60px;
+    color: red;
+    animation: heartbeat 1s infinite alternate;
+}
+@keyframes heartbeat {
+    to{
+
+        transform: scale(1.4);
+    }
+    
+}
